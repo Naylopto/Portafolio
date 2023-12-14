@@ -1,7 +1,37 @@
-
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: url(https://png.pngtree.com/background/20220718/original/pngtree-aesthetic-background-simple-hd-picture-image_1660220.jpg);
-    background-position: center;
+.main-container {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5sO8z1y3Z26l1eAH96BnVVt_8M5yjXMY_QQ&usqp=CAU);
+    background-attachment: fixed;
+    background-image: linear-gradient( #4b4899, #161A30);
+    width: auto;
+    height: auto;
+}
+div{
+     background-color: #FDF0F0; 
+    padding: 40px;
+    border: 20px solid #F1B4BB ;
+    margin: 10px 80px 10px 30px;
+    }
+.links{
     color: black;
+    text-decoration: none;
+}
+
+.red { color: crimson;
+text-decoration: wavy;}
+
+#u-list {
+    list-style-type: square;
+}
+    h1 { 
+        font-family: fantasy ; color: whitesmoke;
+    }
+    h2 { 
+        font-family: serif; 
+        color: rosybrown;
+    }
+img:hover {
+border-radius: 50px;
+height: 250px;
+transform: scale(1.1);
+    transition: 0.5s;
 }
