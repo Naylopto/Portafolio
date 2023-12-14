@@ -1,22 +1,29 @@
+
+body{
+    background-color:  #DED0B6;
+}
 .main-container {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhIWFRUXFRUVFxgYFxcXFxcXFRUWFxUXFxcYHSggHRolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDysZFRkrKy0tNy03NystLSstKystKy0rLSs3LS0tLSsrLSstLTctNystKy0rKy0rKysrKysrLf/AABEIAQoAvgMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAIxABAQEAAQIHAQEBAAAAAAAAAAERgRJxAiExUWGh8LHRkf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AOzylExGl0IoAmqCaLiYBoan/QMKYQDSAgCypoGqixRFAAlAA0kXARTUACRQQUA1FxADFNFTEsL2BE1Z3BACKAYmKosiC0ERUAqxFwFwSFBRAFkEWUDAAQXEAS1QEgXwm32AwkNAWBL8LoIGGAimlAEwgLhDDQURQMABFKACaWgVF32TUEUNBYRFUAwA0M0wDAAQ5xcAA81lAwwAKipvYFEUDEwwwDEsWUBNAQVA0DWtQUKGlAwwNAEX9+0FlEWgYaigQTFwDQARGqgIVbEQS91hgoLiaSoKQ01QtIqb+gGAgKYHUC2CZyugJYuJAWQxMXQNSRSgmqhgFRYYCFBAJThVExcDQD6VAX0TTFoJwnooAuABIItARaYCSKYAItSgJYqYCWEnz/TF4AhQ6QFiLoGAaAGoCliaoFiwxNBQkTAUMO4IulASGGgCWriAamNIgkVU0FhgKGGqmAcgAmLggNUEBcRQEihgALoImrYYCJpgCYsEQaE1AaglnuuqAoCadXuWmgKi9IIEJQODVwBMUMAPIQCpK0lAS34AE8lAFmJpioJqmrFEwMLAC0ANiWKYBi2xABdSUwFEAMXQwBFQDU1cMBMIXwpygqyIYooiygGqAhwYYB5GfJhASUqroIuJqgmEqgJiwgCW+6iYCYC6CIuiByqd0ijRU1YCphADA0ANMJQVmNRKAqaAumJh9gdJgAmrVp3BnTlbEAwCQAJS/QHhiougClBMiLhASLpyAYBQNISrQTFNNAKnKwE0xUAQqghgYgYQ8gFwTFUCGgBiaoCYuACpYAVU1QCABqCghSwA1KpYDK9w1AFQCaL0qomqmkBazVwlBFEwFC+iQF0M/q31ABmg1qLACwSL4gS1latgJQ8CoqaupU/0Rc0hVqgWaRQZVZEAS1vGYD//2Q==);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: blanchedalmond;
+    
 }
 div{
-    background-color: #FDF0F0; 
+    background-color: #FAEED1; 
     padding: 6%;
-    border: 10px solid #ec760850 ;
-    margin: 10px 80px 10px 30px;
+    border: 5px solid  #607274;
+    margin: 10px 10px 10px 10px;
+    
     }
 .links{
     color: black;
     text-decoration: none;
     font-style: oblique;
+    position: relative;
+    left: 40%;
+    
 }
 
 .red { color: crimson;
@@ -28,13 +35,16 @@ font-variant-ligatures: contextual;}
     list-style-type: square;
     font-family: cursive;
     color: rgb(124, 82, 52);
+    list-style: none;
 }
     h1 { 
         font-family: sans-serif ; color: brown;
+        position: relative; left: 70%;
     }
     h2 { 
-        font-family: serif; 
-        color: rosybrown;
+        font-family: Cambria
+        font-style: unset;
+        color: rgb(124, 82, 52);
     }
     p{ 
         font-family: cursive;
@@ -46,5 +56,11 @@ font-variant-ligatures: contextual;}
         color: rgb(58, 31, 9);
     }
 img:hover {
-border-radius: 50px;
+border: black;
+}
+img{
+    position: relative;
+    left: 40%;
+    border-radius: 50%
+}
 }
