@@ -16,14 +16,18 @@ div{
 .links{
     color: black;
     text-decoration: none;
+    font-style: oblique;
 }
 
 .red { color: crimson;
-text-decoration: wavy;}
+text-decoration: wavy;
+font-variant-ligatures: contextual;}
 
 
 #u-list {
     list-style-type: square;
+    font-family: cursive;
+    color: rgb(124, 82, 52);
 }
     h1 { 
         font-family: sans-serif ; color: brown;
