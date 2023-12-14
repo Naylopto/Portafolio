@@ -8,9 +8,9 @@
     color: blanchedalmond;
 }
 div{
-     background-color: #FDF0F0; 
-    padding: 40px;
-    border: 20px solid #F1B4BB ;
+    background-color: #FDF0F0; 
+    padding: 6%;
+    border: 10px solid #ec760850 ;
     margin: 10px 80px 10px 30px;
     }
 .links{
@@ -26,15 +26,16 @@ text-decoration: wavy;}
     list-style-type: square;
 }
     h1 { 
-        font-family: cursive ; color: brown;
+        font-family: sans-serif ; color: brown;
     }
     h2 { 
         font-family: serif; 
         color: rosybrown;
     }
     p{ 
-        font-family: monospace;
-        color: chocolate;
+        font-family: cursive;
+        color: rgb(124, 82, 52);
+        font-size: 1em;
     }
     h3{
         font-family: serif;
