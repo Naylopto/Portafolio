@@ -1,20 +1,19 @@
 
 body{
-    background-color:  #DED0B6;
+    background-image: url('/imagen/cielo.png');
 }
 .main-container {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-position: center;
-    background-size: cover;
+    background-position: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
     
 }
 div{
-    background-color: #FAEED1; 
-    padding: 6%;
+
     border: 5px solid  #607274;
-    margin: 10px 10px 10px 10px;
+    margin: 5% 5% 5% 5%;
+    padding: 5%;
     
     }
 .links{
@@ -38,15 +37,24 @@ font-variant-ligatures: contextual;}
     list-style: none;
 }
     h1 { 
-        font-family: sans-serif ; color: brown;
-        position: relative; left: 70%;
+        font-family: sans-serif ; color:aliceblue;
+        position: relative; left: 50%;
+        font-weight: normal;
+        letter-spacing:  .4em;
+        margin-bottom: 1em;
+        text-transform: capitalize;
     }
+
     h2 { 
+        
+
+        position: relative; left: 5%;
         font-family: Cambria
         font-style: unset;
-        color: rgb(124, 82, 52);
+        color: #FAEED1
     }
     p{ 
+        position: relative; left: 2%; 
         font-family: cursive;
         color: rgb(124, 82, 52);
         font-size: 1em;
