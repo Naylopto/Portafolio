@@ -1,6 +1,6 @@
 
 body{
-    background-image: url('/imagen/cielo.png');
+    background-image: url('./imagen/cielo.png');
 }
 .main-container {
     background-position: cover;
@@ -70,5 +70,4 @@ img{
     position: relative;
     left: 40%;
     border-radius: 50%
-}
 }
